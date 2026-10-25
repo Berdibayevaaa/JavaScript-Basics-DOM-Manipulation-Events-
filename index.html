@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment #5 - JavaScript Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Assignment #5: JavaScript Basics</h1>
+
+  <div>
+    <h2>Part 1 & 2: User Profile</h2>
+    
+    <div>
+      <label for="usernameInput">Username:</label>
+      <input type="text" id="usernameInput">
+    </div>
+
+    <div>
+      <label for="birthYearInput">Birth Year:</label>
+      <input type="number" id="birthYearInput">
+    </div>
+
+    <button id="updateProfileBtn">Create / Update Profile</button>
+
+    <div>
+      <p>Name: <span id="displayName"></span></p>
+      <p>Birth Year: <span id="displayBirthYear"></span></p>
+      <p>Is Developer: <span id="displayIsDev"></span></p>
+      <p>Age: <span id="displayAge"></span></p>
+      <p>Age in Months: <span id="displayMonths"></span></p>
+      <p>Hobbies: <span id="displayHobbies"></span></p>
+      <p>Total Hobbies: <span id="displayHobbiesCount"></span></p>
+    </div>
+  </div>
+
+  <div>
+    <h2>Part 3: Task 5 - Tasks and Hobbies List</h2>
+    
+    <div>
+      <input type="text" id="hobbyInput">
+      <button id="addItemBtn">Add Item</button>
+      <button id="removeItemBtn">Remove Item</button>
+    </div>
+
+    <ul id="itemList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
